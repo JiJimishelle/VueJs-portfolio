@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+*{
+  background-color: #7d7d7d;
+}
+.header li img{
+  width: 130px;
+  height: 50px ;
+  margin-left: 70px;
+}
+#index{
+  font-family : 'Jeju Gothic';
+  margin-left:50px ;
+  margin-right:50px ;
+  line-height: 1.5;
+  font-weight: bolder;
+}
+#container {
+ display: flex;
+}
+#nav{
+ flex: 1;
+ font-size: 18px ;
+}
+#main{
+ flex: 4;
+ font-size: 20px;
+ margin-left: 20px;
+}
+li {
+ list-style: none;
+ width:280px;
+ padding:10px;
+ margin : 10px;
+ margin-left: -20px;
+
+}
+a {
+ text-decoration: none;
+ color: white;
+}
+.menu {
+  width: 300px;
+}
+.menu > li {
+  line-height: 40px;
+  background-color: #7d7d7d;
+}
+.submenu {
+  display: none;
+ }
+.menu > li:hover {
+  background-color: white;
+  transition-duration: 1s;
+ }
+.menu > li:hover .submenu {
+  display: block;
+  transition-duration: 1s;
+}
+footer {
+  text-align: center;
+  background-color: #7d7d7d;
+  color: white;
+  font-size: 20px;
+  height: 80px;
+  margin-bottom: 30px ;
+  margin-top: 30px;
+}
